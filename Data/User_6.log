@@ -1,0 +1,1590 @@
+LOGINMANAGER, TRACE | 10:46:01, 3.84 : Login Scene Starting....
+LOGINMANAGER, POINTER VISIBILITY | 10:46:01, 3.84 : False
+DOWNLOADUTILITY, TRACE | 10:46:01, 3.84 : Starting download of file $/documents/C2/login/All_Labs.json from url: http://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json
+DOWNLOADUTILITY, DEBUG | 10:46:01, 3.84 : Inside download coroutine, URL: http://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json, path: /documents/C2/login/All_Labs.json
+LOGINMANAGER, TRACE | 10:46:01, 3.84 : Starting intro animation, waiting till it completes
+AUTHENTICATE, TRACE | 10:46:01, 3.84 : Starting pin-csv download
+DOWNLOADUTILITY, TRACE | 10:46:01, 3.84 : Starting download of file $/documents/C2/login/pin_ids.csv from url: http://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv
+DOWNLOADUTILITY, DEBUG | 10:46:01, 3.84 : Inside download coroutine, URL: http://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv, path: /documents/C2/login/pin_ids.csv
+LOGGER, CONNECT | 10:46:01, 0 : Connect called at 07/05/2022 10:46:01
+LOGGER, TRACE | 10:46:02, 0 : Saving files to persistent data path: /documents/C2/Logs/07-05-2022_10-46.txt
+LOGGER, DEBUG | 10:46:02, 0 : location of Application.dataPath: /package/Data
+DOWNLOADUTILITY, TRACE | 10:46:02, 0 : Successfully downloaded /documents/C2/login/All_Labs.json
+LOGINMANAGER, TRACE | 10:46:02, 0 : Parsing labs
+LOGINMANAGER, TRACE | 10:46:02, 0 : Finished parsing labs:
+Moon Lab, 
+DOWNLOADUTILITY, TRACE | 10:46:02, 0 : Successfully downloaded /documents/C2/login/pin_ids.csv
+AUTHENTICATE, TRACE | 10:46:02, 0 : Starting to parse csv file
+AUTHENTICATE, TRACE | 10:46:02, 0 : Csvs parsed
+LOGINMANAGER, TRACE | 10:46:11, 8.68 : Started placement
+LOGINMANAGER, POINTER VISIBILITY | 10:46:11, 8.68 : False
+LOGINMANAGER, TRACE | 10:46:50, 47.35 : Lab has been placed
+LOGINMANAGER, TRACE | 10:46:50, 47.35 : Started Pin Entry
+LOGINMANAGER, POINTER VISIBILITY | 10:46:50, 47.35 : True
+LOGINMANAGER, TRACE | 10:48:26, 144 : Pin Entered
+LOGINMANAGER, TRACE | 10:48:27, 144 : Started Authenticating pin
+AUTHENTICATE, TRACE | 10:48:27, 144 : Attempting to authenticate pin: 000006
+AUTHENTICATE, TRACE | 10:48:27, 144 : Attempting to authenticate pin: 000006
+AUTHENTICATE, TRACE | 10:48:27, 144 : Attempting to authenticate pin: 000006
+
+
+Log file for student: User_6,  M00000006.
+Current Time: 07/05/2022 10:48:28
+LOGINMANAGER, TRACE | 10:48:28, 144 : Student authenticated: User 6, M00000006
+LOGINMANAGER, TRACE | 10:48:28, 144 : Started lab selection
+LOGINMANAGER, TRACE | 10:48:28, 144 : Generating lab selection buttons
+LOGINMANAGER, TRACE | 10:48:39, 155.8 : Lab Selected: 1, Moon Lab
+LOGINMANAGER, TRACE | 10:48:39, 155.8 : Started lab Initiaion
+DOWNLOADUTILITY, TRACE | 10:48:40, 155.8 : Starting download of file $/documents/C2/lab_resources/TestLab.zip from url: http://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip
+DOWNLOADUTILITY, DEBUG | 10:48:40, 155.8 : Inside download coroutine, URL: http://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip, path: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY, TRACE | 10:48:45, 160.91 : Successfully downloaded /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY, TRACE | 10:48:45, 160.91 : Starting to extract file: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Number of entries to extract: 26
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: basketball.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: bigearthmoon.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: Grab.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: introduction.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: labintro.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: newfinalie.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: not_in_order1.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: not_in_order2.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: not_in_order3.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: Release.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: seeing the moon.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: sorting_instructions.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: sort-nicejob.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: startbasketball.mp3
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: startsim.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: starttinyearthmoons.wav
+DOWNLOADUTILITY, DEBUG | 10:48:45, 160.91 : Extracting file: Test55.mp3
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: tinyearthmoon.wav
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: demo10.json
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: 2k_earth_daymap.jpg
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: 2k_moon.jpg
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: 2k_sun.jpg
+DOWNLOADUTILITY, DEBUG | 10:48:46, 160.91 : Extracting file: balldimpled.png
+MEDIACATALOGUE, TRACE | 10:48:46, 160.91 : Started Initializing Media Catlogue, 22 resources to load
+MEDIACATALOGUE, TRACE | 10:48:46, 160.91 : Started loading file: basketball.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.24 : Started loading file: bigearthmoon.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.28 : Started loading file: Grab.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.3 : Started loading file: introduction.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.31 : Started loading file: labintro.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.33 : Started loading file: newfinalie.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.35 : Started loading file: not_in_order1.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.36 : Started loading file: not_in_order2.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.38 : Started loading file: not_in_order3.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.4 : Started loading file: Release.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.41 : Started loading file: seeing the moon.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.45 : Started loading file: sorting_instructions.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.48 : Started loading file: sort-nicejob.wav
+MEDIACATALOGUE, TRACE | 10:48:46, 161.5 : Started loading file: startbasketball.mp3
+MEDIACATALOGUE, TRACE | 10:48:47, 161.52 : Started loading file: startsim.wav
+MEDIACATALOGUE, TRACE | 10:48:47, 161.6 : Started loading file: starttinyearthmoons.wav
+MEDIACATALOGUE, TRACE | 10:48:47, 161.62 : Started loading file: Test55.mp3
+MEDIACATALOGUE, TRACE | 10:48:52, 161.7 : Started loading file: tinyearthmoon.wav
+MEDIACATALOGUE, TRACE | 10:48:52, 162.05 : Started loading file: 2k_earth_daymap.jpg
+MEDIACATALOGUE, TRACE | 10:48:52, 162.29 : Started loading file: 2k_moon.jpg
+MEDIACATALOGUE, TRACE | 10:48:52, 162.56 : Started loading file: 2k_sun.jpg
+MEDIACATALOGUE, TRACE | 10:48:53, 162.82 : Started loading file: balldimpled.png
+LOGINMANAGER, TRACE | 10:48:53, 162.87 : Initializing Lab Manager
+LABMANAGER, TRACE | 10:48:53, 162.87 : Initializing lab
+LIGHTINGCONTROL, TRACE | 10:48:53, 162.87 : Save lights called
+LIGHTINGCONTROL, TRACE | 10:48:53, 162.87 : Setting lights to be sunlight
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Adding components: 
+BRIDGE, TRACE | 10:48:53, 162.87 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: Earth, type: Prefabs/moveableSphere
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 0.0, 1.5), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE, TRACE | 10:48:53, 162.87 : Mesh bounding box: Center: (0.0, -0.2, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: Moon, type: Prefabs/moveableSphere
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (2.4, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Adding components: {"name": "simpleOrbit", "moonPosition": {"x": 2.4, "y": 0.0, "z": 1.5}, "orbitalPeriod": 56.0, "timeRate": 1.0, "orbitalScale": 1.0, "synchronousRotation": true} 
+BRIDGE, TRACE | 10:48:53, 162.87 : Mesh bounding box: Center: (2.4, -0.2, 1.5), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: earthLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 2.0, 0.0), Scale: (10.0, 10.0, 10.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: earthSizeLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, -2.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: moonLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 4.0, 0.0), Scale: (20.0, 20.0, 20.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: moonSizeLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, -4.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: moonDistanceLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (45.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:53, 162.87 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 10:48:53, 162.87 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:53, 162.87 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (-1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:48:54, 162.87 : Moving to clip clip1
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:48:54, 162.87 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:48:54, 162.87 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:50:50, 278.86 : Moving to clip clip2
+BRIDGE, TRACE | 10:50:50, 278.86 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:50:50, 278.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:50:50, 278.86 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 10:50:50, 278.86 : Creating object: earthSizeLabel, type: 
+BRIDGE, TRACE | 10:50:50, 278.86 : Position: (0.0, 0.0, 0.0), Scale: (10.0, 10.0, 10.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:50:50, 278.86 : Mesh bounding box: Center: (0.0, -0.4, 1.3), Extents: (0.1, 0.0, 0.2)
+BRIDGE, TRACE | 10:50:50, 278.86 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:50:50, 278.86 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:50:51, 278.86 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:50:51, 278.86 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:50:51, 278.86 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:50:51, 278.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:51:18, 306.77 : Moving to clip clip3
+BRIDGE, TRACE | 10:51:18, 306.77 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:51:19, 306.77 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:19, 306.77 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:19, 306.77 : Creating object: moonSizeLabel, type: 
+BRIDGE, TRACE | 10:51:19, 306.77 : Position: (0.0, 0.0, 0.0), Scale: (20.0, 20.0, 20.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:19, 306.77 : Mesh bounding box: Center: (-2.3, -0.3, 0.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 10:51:19, 306.77 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:51:19, 306.77 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:19, 306.77 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:51:19, 306.77 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:19, 306.77 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:51:19, 306.77 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:51:59, 346.53 : Moving to clip clip4
+BRIDGE, TRACE | 10:51:59, 346.53 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:51:59, 346.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:59, 346.53 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.4, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:59, 346.53 : Creating object: moonDistanceLabel, type: 
+BRIDGE, TRACE | 10:51:59, 346.53 : Position: (0.0, 0.0, 0.0), Scale: (30.0, 30.0, 30.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:59, 346.53 : Mesh bounding box: Center: (-0.2, -0.2, 2.8), Extents: (0.1, 0.1, 0.5)
+BRIDGE, TRACE | 10:51:59, 346.53 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:51:59, 346.53 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:59, 346.53 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:51:59, 346.53 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:51:59, 346.53 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:51:59, 346.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:52:39, 386.56 : Moving to clip clip5
+BRIDGE, TRACE | 10:52:39, 386.56 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:52:39, 386.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:39, 386.56 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.4, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:39, 386.56 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:52:39, 386.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:39, 386.56 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:52:39, 386.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:39, 386.56 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:52:39, 386.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:52:58, 405.27 : Moving to clip clip6
+BRIDGE, TRACE | 10:52:58, 405.27 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:52:58, 405.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:58, 405.27 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:58, 405.27 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:52:58, 405.27 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:58, 405.27 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:52:58, 405.27 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:52:58, 405.27 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:52:58, 405.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:53:53, 459.41 : Moving to clip clip7
+BRIDGE, TRACE | 10:53:53, 459.41 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:53:53, 459.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:53:53, 459.41 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 10:53:53, 459.41 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:53:53, 459.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:53:53, 459.41 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:53:53, 459.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:53:53, 459.41 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:53:53, 459.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:54:13, 479.56 : Moving to clip clip8
+BRIDGE, TRACE | 10:54:13, 479.56 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:54:13, 479.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:13, 479.56 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:13, 479.56 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:54:13, 479.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:13, 479.56 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:54:13, 479.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:13, 479.56 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:54:13, 479.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:54:36, 502.7 : Moving to clip clip9
+BRIDGE, TRACE | 10:54:36, 502.7 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:54:37, 502.7 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:37, 502.7 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:37, 502.7 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:54:37, 502.7 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:37, 502.7 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:54:37, 502.7 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:54:37, 502.7 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:54:37, 502.7 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:55:22, 547.34 : Moving to clip clip10
+BRIDGE, TRACE | 10:55:22, 547.34 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:55:22, 547.34 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:55:22, 547.34 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 10:55:22, 547.34 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:55:22, 547.34 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:55:22, 547.34 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:55:22, 547.34 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:55:22, 547.34 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:55:22, 547.34 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 10:57:34, 679.69 : Moving to clip clip11
+BRIDGE, TRACE | 10:57:34, 679.69 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 10:57:34, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:34, 679.69 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:34, 679.69 : Creating object: earthSizeLabel, type: 
+BRIDGE, TRACE | 10:57:34, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:34, 679.69 : Mesh bounding box: Center: (0.0, -0.4, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:34, 679.69 : Creating object: moonSizeLabel, type: 
+BRIDGE, TRACE | 10:57:35, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Mesh bounding box: Center: (0.5, -0.3, 3.6), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Creating object: moonDistanceLabel, type: 
+BRIDGE, TRACE | 10:57:35, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Mesh bounding box: Center: (0.3, -0.2, 2.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 10:57:35, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 10:57:35, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 10:57:35, 679.69 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 10:57:35, 679.69 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:00:11, 835.89 : Restore lights called
+LABMANAGER, TRACE | 11:00:11, 835.89 : Moving to module at index 1
+LIGHTINGCONTROL, TRACE | 11:00:12, 836.9 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:00:12, 836.9 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Adding components: 
+BRIDGE, TRACE | 11:00:12, 836.9 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE, TRACE | 11:00:12, 836.9 : Mesh bounding box: Center: (0.0, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Adding components: 
+BRIDGE, TRACE | 11:00:12, 836.9 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: Robot, type: Prefabs/robotIdle
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (-0.5, 0.0, 0.0), Scale: (0.4, 0.4, 0.4), EulerAngles: (-90.0, 0.0, 90.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Adding components: 
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:12, 836.9 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:12, 836.9 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:00:13, 836.9 : Moving to clip clip0
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:00:13, 836.9 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:00:13, 836.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:01:12, 895.9 : Moving to clip clip1
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Mesh bounding box: Center: (2.0, 0.0, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Mesh bounding box: Center: (2.0, -0.4, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:12, 895.9 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:01:12, 895.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:01:21, 905.1 : Moving to clip clip2
+BRIDGE, TRACE | 11:01:21, 905.1 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:01:21, 905.1 : Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE, TRACE | 11:01:21, 905.1 : Mesh bounding box: Center: (1.3, -0.2, 2.8), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:01:21, 905.1 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:01:21, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:21, 905.1 : Mesh bounding box: Center: (1.3, 0.0, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:01:21, 905.1 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:01:21, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:21, 905.1 : Mesh bounding box: Center: (1.3, -0.4, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:01:21, 905.1 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:01:22, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:22, 905.1 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:22, 905.1 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:01:22, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:22, 905.1 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:01:22, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:01:22, 905.1 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:01:22, 905.1 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:02:01, 944.2 : Moving to clip clip3
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Mesh bounding box: Center: (-0.2, -0.2, 3.3), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Mesh bounding box: Center: (-0.2, 0.0, 3.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Mesh bounding box: Center: (-0.2, -0.4, 3.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:01, 944.2 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:02:01, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:02, 944.2 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:02:02, 944.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:02:39, 981.62 : Moving to clip clip4
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Mesh bounding box: Center: (-1.5, -0.2, 2.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Mesh bounding box: Center: (-1.5, 0.0, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Mesh bounding box: Center: (-1.5, -0.4, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:39, 981.62 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:02:39, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:02:40, 981.62 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:02:40, 981.62 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:03:09, 1011.41 : Moving to clip clip5
+BRIDGE, TRACE | 11:03:09, 1011.41 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:03:09, 1011.41 : Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE, TRACE | 11:03:09, 1011.41 : Mesh bounding box: Center: (-2.0, -0.2, 1.1), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:03:09, 1011.41 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:03:09, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:09, 1011.41 : Mesh bounding box: Center: (-2.0, 0.0, 1.1), Extents: (0.0, 0.0, 0.2)
+BRIDGE, TRACE | 11:03:09, 1011.41 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:03:09, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Mesh bounding box: Center: (-2.0, -0.4, 1.1), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:03:10, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:03:10, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:03:10, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:10, 1011.41 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:03:10, 1011.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:03:39, 1040.65 : Moving to clip clip6
+BRIDGE, TRACE | 11:03:39, 1040.65 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:03:39, 1040.65 : Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Mesh bounding box: Center: (-1.3, -0.2, -0.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:03:39, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Mesh bounding box: Center: (-1.3, 0.0, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:03:39, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Mesh bounding box: Center: (-1.3, -0.4, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:03:39, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:39, 1040.65 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:40, 1040.65 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:03:40, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:40, 1040.65 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:03:40, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:03:40, 1040.65 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:03:40, 1040.65 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:04:28, 1088.9 : Moving to clip clip7
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:04:28, 1088.9 : Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Mesh bounding box: Center: (0.1, -0.2, -0.7), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:04:28, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Mesh bounding box: Center: (0.1, 0.0, -0.7), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:04:28, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Mesh bounding box: Center: (0.1, -0.4, -0.7), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:04:28, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:04:28, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:28, 1088.9 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:04:29, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:04:29, 1088.9 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:04:29, 1088.9 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:05:07, 1127.38 : Moving to clip clip8
+BRIDGE, TRACE | 11:05:07, 1127.38 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:05:07, 1127.38 : Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Mesh bounding box: Center: (1.5, -0.2, 0.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:05:07, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Mesh bounding box: Center: (1.5, 0.0, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:05:07, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Mesh bounding box: Center: (1.5, -0.4, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:05:07, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:07, 1127.38 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:05:08, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:08, 1127.38 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:05:08, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:05:08, 1127.38 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:05:08, 1127.38 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:09:26, 1385.42 : Restore lights called
+LABMANAGER, TRACE | 11:09:26, 1385.42 : Moving to module at index 2
+LIGHTINGCONTROL, TRACE | 11:09:27, 1386.42 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:09:27, 1386.42 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Mesh bounding box: Center: (0.0, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:09:27, 1386.42 : Moving to clip clip0
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:09:27, 1386.42 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:09:27, 1386.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:10:20, 1439.42 : Moving to clip clip1
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Mesh bounding box: Center: (2.0, 0.0, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Mesh bounding box: Center: (2.0, -0.4, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:20, 1439.42 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:10:20, 1439.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:10:36, 1455.01 : Moving to clip clip2
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Mesh bounding box: Center: (1.3, -0.2, 2.8), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Mesh bounding box: Center: (1.3, 0.0, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Mesh bounding box: Center: (1.3, -0.4, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:10:36, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:10:36, 1455.01 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:10:37, 1455.01 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:11:07, 1486.22 : Moving to clip clip3
+BRIDGE, TRACE | 11:11:07, 1486.22 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Mesh bounding box: Center: (-0.2, -0.2, 3.3), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Mesh bounding box: Center: (-0.2, 0.0, 3.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Mesh bounding box: Center: (-0.2, -0.4, 3.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:11:08, 1486.22 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:11:08, 1486.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:12:07, 1545.61 : Moving to clip clip4
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Mesh bounding box: Center: (-1.5, -0.2, 2.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Mesh bounding box: Center: (-1.5, 0.0, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Mesh bounding box: Center: (-1.5, -0.4, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:08, 1545.61 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:12:08, 1545.61 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:12:47, 1584.22 : Moving to clip clip5
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Mesh bounding box: Center: (-2.0, -0.2, 1.1), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Mesh bounding box: Center: (-2.0, 0.0, 1.1), Extents: (0.0, 0.0, 0.2)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Mesh bounding box: Center: (-2.0, -0.4, 1.1), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:12:47, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:12:47, 1584.22 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:12:48, 1584.22 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:13:13, 1609.89 : Moving to clip clip6
+BRIDGE, TRACE | 11:13:13, 1609.89 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:13:13, 1609.89 : Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Mesh bounding box: Center: (-1.3, -0.2, -0.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:13:13, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Mesh bounding box: Center: (-1.3, 0.0, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:13:13, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Mesh bounding box: Center: (-1.3, -0.4, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:13:13, 1609.89 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:13:13, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:14, 1609.89 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:14, 1609.89 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:13:14, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:14, 1609.89 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:13:14, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:14, 1609.89 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:13:14, 1609.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:13:49, 1645.16 : Moving to clip clip7
+BRIDGE, TRACE | 11:13:49, 1645.16 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:13:49, 1645.16 : Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Mesh bounding box: Center: (0.1, -0.2, -0.7), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:13:49, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Mesh bounding box: Center: (0.1, 0.0, -0.7), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:13:49, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Mesh bounding box: Center: (0.1, -0.4, -0.7), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:13:49, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:49, 1645.16 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:13:50, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:50, 1645.16 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:13:50, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:13:50, 1645.16 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:13:50, 1645.16 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:14:05, 1661.2 : Moving to clip clip8
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Mesh bounding box: Center: (1.5, -0.2, 0.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Mesh bounding box: Center: (1.5, 0.0, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Mesh bounding box: Center: (1.5, -0.4, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:14:06, 1661.2 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:14:06, 1661.2 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:16:12, 1787.26 : Restore lights called
+LABMANAGER, TRACE | 11:16:12, 1787.26 : Moving to module at index 3
+LIGHTINGCONTROL, TRACE | 11:16:13, 1788.26 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:16:13, 1788.26 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Adding components: 
+BRIDGE, TRACE | 11:16:13, 1788.26 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE, TRACE | 11:16:13, 1788.26 : Mesh bounding box: Center: (0.0, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Adding components: 
+BRIDGE, TRACE | 11:16:13, 1788.26 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:13, 1788.26 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:16:13, 1788.26 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:13, 1788.26 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:16:14, 1788.26 : Moving to clip clip0
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:16:14, 1788.26 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:16:14, 1788.26 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:17:07, 1841.27 : Moving to clip clip1
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Mesh bounding box: Center: (2.0, -0.2, 1.4), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Mesh bounding box: Center: (2.0, 0.0, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Mesh bounding box: Center: (2.0, -0.4, 1.4), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:07, 1841.27 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:17:07, 1841.27 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:17:38, 1872.86 : Moving to clip clip2
+BRIDGE, TRACE | 11:17:38, 1872.86 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:17:38, 1872.86 : Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE, TRACE | 11:17:38, 1872.86 : Mesh bounding box: Center: (1.3, -0.2, 2.8), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:17:38, 1872.86 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Mesh bounding box: Center: (1.3, 0.0, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Mesh bounding box: Center: (1.3, -0.4, 2.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:17:39, 1872.86 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:17:39, 1872.86 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:18:09, 1903.08 : Moving to clip clip3
+BRIDGE, TRACE | 11:18:09, 1903.08 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:18:09, 1903.08 : Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 11:18:09, 1903.08 : Mesh bounding box: Center: (-0.2, -0.2, 3.3), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:18:09, 1903.08 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:18:09, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:09, 1903.08 : Mesh bounding box: Center: (-0.2, 0.0, 3.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:09, 1903.08 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:18:09, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Mesh bounding box: Center: (-0.2, -0.4, 3.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:18:10, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:18:10, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:18:10, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:10, 1903.08 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:18:10, 1903.08 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:18:28, 1920.98 : Moving to clip clip4
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Mesh bounding box: Center: (-1.5, -0.2, 2.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Mesh bounding box: Center: (-1.5, 0.0, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Mesh bounding box: Center: (-1.5, -0.4, 2.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:28, 1920.98 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:18:28, 1920.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:18:48, 1941.07 : Moving to clip clip5
+BRIDGE, TRACE | 11:18:48, 1941.07 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:18:48, 1941.07 : Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE, TRACE | 11:18:48, 1941.07 : Mesh bounding box: Center: (-2.0, -0.2, 1.1), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:18:48, 1941.07 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Mesh bounding box: Center: (-2.0, 0.0, 1.1), Extents: (0.0, 0.0, 0.2)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Mesh bounding box: Center: (-2.0, -0.4, 1.1), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:49, 1941.07 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:18:49, 1941.07 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:18:57, 1948.89 : Moving to clip clip6
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Mesh bounding box: Center: (-1.3, -0.2, -0.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Mesh bounding box: Center: (-1.3, 0.0, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Mesh bounding box: Center: (-1.3, -0.4, -0.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:57, 1948.89 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:18:57, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:18:58, 1948.89 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:18:58, 1948.89 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:19:16, 1967.41 : Moving to clip clip7
+BRIDGE, TRACE | 11:19:16, 1967.41 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:19:16, 1967.41 : Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Mesh bounding box: Center: (0.1, -0.2, -0.7), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:19:16, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Mesh bounding box: Center: (0.1, 0.0, -0.7), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:19:16, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Mesh bounding box: Center: (0.1, -0.4, -0.7), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:19:16, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:16, 1967.41 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:19:17, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:17, 1967.41 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:19:17, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:17, 1967.41 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:19:17, 1967.41 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:19:34, 1984.98 : Moving to clip clip8
+BRIDGE, TRACE | 11:19:34, 1984.98 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:19:34, 1984.98 : Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Mesh bounding box: Center: (1.5, -0.2, 0.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:19:34, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Mesh bounding box: Center: (1.5, 0.0, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:19:34, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Mesh bounding box: Center: (1.5, -0.4, 0.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:19:34, 1984.98 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:19:35, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:35, 1984.98 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:35, 1984.98 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:19:35, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:35, 1984.98 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:19:35, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:19:35, 1984.98 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:19:35, 1984.98 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:21:06, 2076.68 : Restore lights called
+LABMANAGER, TRACE | 11:21:06, 2076.68 : Moving to module at index 4
+LIGHTINGCONTROL, TRACE | 11:21:07, 2077.69 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:21:07, 2077.69 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:21:07, 2077.69 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:21:07, 2077.69 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Adding components: 
+BRIDGE, TRACE | 11:21:07, 2077.69 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:21:07, 2077.69 : Position: (0.0, -0.7, 1.5), Scale: (0.2, 0.2, 0.2), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE, TRACE | 11:21:07, 2077.69 : Mesh bounding box: Center: (0.0, -0.9, 1.3), Extents: (0.1, 0.1, 0.1)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE, TRACE | 11:21:07, 2077.69 : Position: (0.5, -0.7, 1.5), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Adding components: 
+BRIDGE, TRACE | 11:21:07, 2077.69 : Mesh bounding box: Center: (0.5, -0.9, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:07, 2077.69 : Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:07, 2077.69 : Position: (1.0, 0.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (90.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (-0.8, 0.0, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (90.0, 90.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:21:08, 2077.69 : Moving to clip clip0
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:08, 2077.69 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:21:08, 2077.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:21:36, 2105.69 : Moving to clip clip1
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.5, -0.7, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Mesh bounding box: Center: (0.5, -0.9, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Mesh bounding box: Center: (0.6, -0.9, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Mesh bounding box: Center: (0.4, -0.9, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:21:36, 2105.69 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:21:36, 2105.69 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:22:23, 2153.03 : Moving to clip clip2
+BRIDGE, TRACE | 11:22:23, 2153.03 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:22:23, 2153.03 : Position: (0.4, -0.7, 1.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE, TRACE | 11:22:23, 2153.03 : Mesh bounding box: Center: (0.3, -0.9, 1.7), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:22:23, 2153.03 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:22:23, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:23, 2153.03 : Mesh bounding box: Center: (0.3, -0.9, 1.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:23, 2153.03 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:22:23, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Mesh bounding box: Center: (0.3, -0.9, 1.6), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:22:24, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:22:24, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:22:24, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:24, 2153.03 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:22:24, 2153.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:22:59, 2188.24 : Moving to clip clip3
+BRIDGE, TRACE | 11:22:59, 2188.24 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:22:59, 2188.24 : Position: (0.0, -0.7, 2.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Mesh bounding box: Center: (-0.1, -0.9, 1.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:22:59, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Mesh bounding box: Center: (-0.1, -0.9, 1.9), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:22:59, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Mesh bounding box: Center: (-0.1, -0.9, 1.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:22:59, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:22:59, 2188.24 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:23:00, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:00, 2188.24 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:23:00, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:00, 2188.24 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:23:00, 2188.24 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:23:15, 2203.48 : Moving to clip clip4
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (-0.4, -0.7, 1.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Mesh bounding box: Center: (-0.4, -0.9, 1.6), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Mesh bounding box: Center: (-0.5, -0.9, 1.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Mesh bounding box: Center: (-0.4, -0.9, 1.6), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:23:15, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:15, 2203.48 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:23:16, 2203.48 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:23:48, 2235.97 : Moving to clip clip5
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:23:48, 2235.97 : Position: (-0.5, -0.7, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Mesh bounding box: Center: (-0.5, -0.9, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:23:48, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Mesh bounding box: Center: (-0.6, -0.9, 1.2), Extents: (0.0, 0.0, 0.1)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:23:48, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Mesh bounding box: Center: (-0.5, -0.9, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:23:48, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:23:48, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:48, 2235.97 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:23:49, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:23:49, 2235.97 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:23:49, 2235.97 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:24:05, 2252.21 : Moving to clip clip6
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (-0.4, -0.7, 1.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Mesh bounding box: Center: (-0.4, -0.9, 0.9), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Mesh bounding box: Center: (-0.4, -0.9, 0.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Mesh bounding box: Center: (-0.3, -0.9, 0.9), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:24:05, 2252.21 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:24:05, 2252.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:25:14, 2320.76 : Moving to clip clip7
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, -0.7, 1.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Mesh bounding box: Center: (0.0, -0.9, 0.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Mesh bounding box: Center: (0.0, -0.9, 0.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Mesh bounding box: Center: (0.0, -0.9, 0.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:14, 2320.76 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:25:14, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:15, 2320.76 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:25:15, 2320.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:25:45, 2351.36 : Moving to clip clip8
+BRIDGE, TRACE | 11:25:45, 2351.36 : Creating object: Moon, type: 
+BRIDGE, TRACE | 11:25:45, 2351.36 : Position: (0.4, -0.7, 1.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Mesh bounding box: Center: (0.4, -0.9, 1.0), Extents: (0.1, 0.0, 0.1)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Creating object: moonLabelTop, type: 
+BRIDGE, TRACE | 11:25:45, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Mesh bounding box: Center: (0.4, -0.9, 0.9), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Creating object: moonLabelBottom, type: 
+BRIDGE, TRACE | 11:25:45, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Mesh bounding box: Center: (0.3, -0.9, 1.0), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:25:45, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:45, 2351.36 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:46, 2351.36 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:25:46, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:46, 2351.36 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:25:46, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:25:46, 2351.36 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:25:46, 2351.36 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:28:04, 2489.55 : Restore lights called
+LABMANAGER, TRACE | 11:28:04, 2489.55 : Moving to module at index 5
+LIGHTINGCONTROL, TRACE | 11:28:05, 2490.56 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:28:05, 2490.56 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: basketball, type: Prefabs/moveableSphere
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 2.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2000} {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30, "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:28:05, 2490.56 : Moving to clip clip0
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:05, 2490.56 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:28:05, 2490.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:28:37, 2522.57 : Moving to clip clip1
+BRIDGE, TRACE | 11:28:37, 2522.57 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:28:37, 2522.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:28:37, 2522.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:28:37, 2522.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:28:37, 2522.57 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:37, 2522.57 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:28:37, 2522.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:28:57, 2542.57 : Moving to clip clip2
+BRIDGE, TRACE | 11:28:57, 2542.57 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:28:57, 2542.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:28:57, 2542.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Mesh bounding box: Center: (1.4, -0.2, 1.6), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:28:57, 2542.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:28:57, 2542.57 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:28:57, 2542.57 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:28:57, 2542.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:29:26, 2571.57 : Moving to clip clip3
+BRIDGE, TRACE | 11:29:26, 2571.57 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Mesh bounding box: Center: (1.6, -0.2, 1.0), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:26, 2571.57 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:29:26, 2571.57 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:29:42, 2586.91 : Moving to clip clip4
+BRIDGE, TRACE | 11:29:42, 2586.91 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 45, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Mesh bounding box: Center: (-1.2, -0.2, 0.6), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:42, 2586.91 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:29:42, 2586.91 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:29:56, 2601.03 : Moving to clip clip5
+BRIDGE, TRACE | 11:29:56, 2601.03 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 90, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Mesh bounding box: Center: (-0.5, -0.2, -0.4), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:29:56, 2601.03 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:29:56, 2601.03 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:30:06, 2610.92 : Moving to clip clip6
+BRIDGE, TRACE | 11:30:06, 2610.92 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 135, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Mesh bounding box: Center: (0.2, -0.2, -0.5), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:06, 2610.92 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:30:06, 2610.92 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:30:33, 2638.21 : Moving to clip clip7
+BRIDGE, TRACE | 11:30:33, 2638.21 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 180, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Mesh bounding box: Center: (1.0, -0.2, 0.1), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:33, 2638.21 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:30:33, 2638.21 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:30:43, 2648.56 : Moving to clip clip8
+BRIDGE, TRACE | 11:30:43, 2648.56 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 225, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Mesh bounding box: Center: (1.2, -0.2, 0.8), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:43, 2648.56 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:30:43, 2648.56 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:30:52, 2657.44 : Moving to clip clip9
+BRIDGE, TRACE | 11:30:52, 2657.44 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 270, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Mesh bounding box: Center: (0.7, -0.2, 1.5), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:30:52, 2657.44 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:30:52, 2657.44 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:31:06, 2671.53 : Moving to clip clip10
+BRIDGE, TRACE | 11:31:06, 2671.53 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 315, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Mesh bounding box: Center: (0.0, -0.2, 1.8), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:06, 2671.53 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:31:06, 2671.53 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:31:17, 2682.6 : Moving to clip clip11
+BRIDGE, TRACE | 11:31:17, 2682.6 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:31:17, 2682.6 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:31:17, 2682.6 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Mesh bounding box: Center: (-0.8, -0.3, 1.4), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:31:17, 2682.6 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:31:17, 2682.6 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:17, 2682.6 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:31:17, 2682.6 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:31:53, 2718.35 : Restore lights called
+LABMANAGER, TRACE | 11:31:53, 2718.35 : Moving to module at index 6
+LIGHTINGCONTROL, TRACE | 11:31:54, 2719.36 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:31:54, 2719.36 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: 
+BRIDGE, TRACE | 11:31:54, 2719.36 : Mesh bounding box: Center: (-38.8, -0.2, -3.2), Extents: (2.7, 2.5, 2.7)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: basketball, type: Prefabs/moveableSphere
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.0, 2.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2} {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30, "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:31:54, 2719.36 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:31:54, 2719.36 : Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:31:54, 2719.36 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:31:55, 2719.36 : Moving to clip clip0
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:55, 2719.36 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:31:55, 2719.36 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:31:55, 2719.36 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:32:04, 2729.37 : Moving to clip clip9
+BRIDGE, TRACE | 11:32:04, 2729.37 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:32:04, 2729.37 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:04, 2729.37 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:04, 2729.37 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:32:05, 2729.37 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:05, 2729.37 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 270, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:32:05, 2729.37 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:32:05, 2729.37 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:32:05, 2729.37 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:05, 2729.37 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:32:05, 2729.37 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:05, 2729.37 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:32:05, 2729.37 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:32:17, 2741.76 : Moving to clip clip7
+BRIDGE, TRACE | 11:32:17, 2741.76 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 180, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Mesh bounding box: Center: (-0.1, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:17, 2741.76 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:32:17, 2741.76 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:32:25, 2749.59 : Moving to clip clip6
+BRIDGE, TRACE | 11:32:25, 2749.59 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 135, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Mesh bounding box: Center: (1.4, -0.2, 1.1), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:25, 2749.59 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:32:25, 2749.59 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:32:40, 2765.43 : Moving to clip clip3
+BRIDGE, TRACE | 11:32:41, 2765.43 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Mesh bounding box: Center: (1.2, -0.3, -0.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:41, 2765.43 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:32:41, 2765.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:32:50, 2774.68 : Moving to clip clip10
+BRIDGE, TRACE | 11:32:50, 2774.68 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 315, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Mesh bounding box: Center: (-1.4, -0.2, 0.7), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:32:50, 2774.68 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:32:50, 2774.68 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:01, 2786.12 : Moving to clip clip5
+BRIDGE, TRACE | 11:33:01, 2786.12 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 90, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Mesh bounding box: Center: (-1.1, -0.3, 1.6), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:01, 2786.12 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:33:01, 2786.12 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:11, 2796.25 : Moving to clip clip4
+BRIDGE, TRACE | 11:33:11, 2796.25 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:33:11, 2796.25 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:33:11, 2796.25 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 45, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:33:11, 2796.25 : Mesh bounding box: Center: (0.0, -0.3, -0.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:33:11, 2796.25 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:33:11, 2796.25 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:11, 2796.25 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:33:12, 2796.25 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:22, 2807.18 : Moving to clip clip8
+BRIDGE, TRACE | 11:33:22, 2807.18 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 225, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Mesh bounding box: Center: (-0.9, -0.4, -0.1), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:22, 2807.18 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:33:22, 2807.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:34, 2819.18 : Moving to clip clip11
+BRIDGE, TRACE | 11:33:34, 2819.18 : Creating object: taskLabel, type: 
+BRIDGE, TRACE | 11:33:34, 2819.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Mesh bounding box: Center: (-0.1, 0.4, 2.3), Extents: (0.2, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Creating object: basketball, type: 
+BRIDGE, TRACE | 11:33:34, 2819.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Mesh bounding box: Center: (0.7, -0.2, 1.9), Extents: (0.2, 0.2, 0.2)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Creating object: brbPreviousClip, type: 
+BRIDGE, TRACE | 11:33:34, 2819.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Creating object: brbNextClip, type: 
+BRIDGE, TRACE | 11:33:34, 2819.18 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:34, 2819.18 : Creating object: brbNextModule, type: 
+BRIDGE, TRACE | 11:33:34, 2819.18 : Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL, TRACE | 11:33:38, 2822.92 : Restore lights called
+LABMANAGER, TRACE | 11:33:38, 2822.92 : Moving to module at index 7
+LIGHTINGCONTROL, TRACE | 11:33:39, 2823.92 : Save lights called
+LIGHTINGCONTROL, TRACE | 11:33:39, 2823.92 : Setting lights to be sunlight
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: title, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, 0.5, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line0, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, 0.3, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line1, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, 0.2, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line2, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, 0.1, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line3, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, 0.0, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line4, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, -0.1, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: line5, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (0.0, -0.2, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall1, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, 0.3, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, 0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall2, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, 0.2, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, 0.0, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall3, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, 0.1, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, -0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall4, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, 0.0, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, -0.2, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall5, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, -0.1, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, -0.3, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: markerBall6, type: Prefabs/tinySphere
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (-0.8, -0.2, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Adding components: 
+BRIDGE, TRACE | 11:33:39, 2823.92 : Mesh bounding box: Center: (-0.8, -0.4, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:39, 2823.92 : Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:33:39, 2823.92 : Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:33:40, 2823.92 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:33:40, 2823.92 : Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:40, 2823.92 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:33:40, 2823.92 : Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE, TRACE | 11:33:40, 2823.92 : Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE, TRACE | 11:33:40, 2823.92 : Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE, TRACE | 11:33:40, 2823.92 : Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE, TRACE | 11:33:40, 2823.92 : Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:40, 2823.92 : Moving to clip clip0
+BRIDGE, TRACE | 11:33:40, 2823.92 : Creating object: MainInstructions, type: 
+BRIDGE, TRACE | 11:33:40, 2823.92 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:45, 2829.42 : Moving to clip clip1
+BRIDGE, TRACE | 11:33:45, 2829.42 : Creating object: line1, type: 
+BRIDGE, TRACE | 11:33:45, 2829.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:45, 2829.42 : Mesh bounding box: Center: (0.0, 0.0, 1.4), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:45, 2829.42 : Creating object: markerBall1, type: 
+BRIDGE, TRACE | 11:33:45, 2829.42 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:45, 2829.42 : Mesh bounding box: Center: (-0.8, 0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Creating object: line1, type: 
+BRIDGE, TRACE | 11:33:52, 2836.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Mesh bounding box: Center: (0.0, 0.0, 1.4), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Creating object: markerBall1, type: 
+BRIDGE, TRACE | 11:33:52, 2836.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Mesh bounding box: Center: (-0.8, 0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:52, 2836.43 : Moving to clip clip2
+BRIDGE, TRACE | 11:33:52, 2836.43 : Creating object: line2, type: 
+BRIDGE, TRACE | 11:33:52, 2836.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Mesh bounding box: Center: (0.0, -0.1, 1.4), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Creating object: markerBall2, type: 
+BRIDGE, TRACE | 11:33:52, 2836.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:52, 2836.43 : Mesh bounding box: Center: (-0.8, 0.0, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Creating object: line2, type: 
+BRIDGE, TRACE | 11:33:58, 2842.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Mesh bounding box: Center: (0.0, -0.1, 1.4), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Creating object: markerBall2, type: 
+BRIDGE, TRACE | 11:33:58, 2842.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Mesh bounding box: Center: (-0.8, 0.0, 1.3), Extents: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:33:58, 2842.43 : Moving to clip clip3
+BRIDGE, TRACE | 11:33:58, 2842.43 : Creating object: line3, type: 
+BRIDGE, TRACE | 11:33:58, 2842.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Mesh bounding box: Center: (0.0, -0.2, 1.4), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Creating object: markerBall3, type: 
+BRIDGE, TRACE | 11:33:58, 2842.43 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:33:58, 2842.43 : Mesh bounding box: Center: (-0.8, -0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Creating object: line3, type: 
+BRIDGE, TRACE | 11:34:04, 2848.45 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Mesh bounding box: Center: (0.0, -0.2, 1.4), Extents: (0.3, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Creating object: markerBall3, type: 
+BRIDGE, TRACE | 11:34:04, 2848.45 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Mesh bounding box: Center: (-0.8, -0.1, 1.3), Extents: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:34:04, 2848.45 : Moving to clip clip4
+BRIDGE, TRACE | 11:34:04, 2848.45 : Creating object: line4, type: 
+BRIDGE, TRACE | 11:34:04, 2848.45 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Mesh bounding box: Center: (0.0, -0.3, 1.4), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Creating object: markerBall4, type: 
+BRIDGE, TRACE | 11:34:04, 2848.45 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:04, 2848.45 : Mesh bounding box: Center: (-0.8, -0.2, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Creating object: line4, type: 
+BRIDGE, TRACE | 11:34:09, 2853.46 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Mesh bounding box: Center: (0.0, -0.3, 1.4), Extents: (0.5, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Creating object: markerBall4, type: 
+BRIDGE, TRACE | 11:34:09, 2853.46 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Mesh bounding box: Center: (-0.8, -0.2, 1.3), Extents: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:34:09, 2853.46 : Moving to clip clip5
+BRIDGE, TRACE | 11:34:09, 2853.46 : Creating object: line5, type: 
+BRIDGE, TRACE | 11:34:09, 2853.46 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Mesh bounding box: Center: (0.0, -0.4, 1.4), Extents: (0.6, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Creating object: markerBall5, type: 
+BRIDGE, TRACE | 11:34:09, 2853.46 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:09, 2853.46 : Mesh bounding box: Center: (-0.8, -0.3, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:15, 2859.47 : Creating object: line5, type: 
+BRIDGE, TRACE | 11:34:15, 2859.47 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:15, 2859.47 : Mesh bounding box: Center: (0.0, -0.4, 1.4), Extents: (0.6, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:15, 2859.47 : Creating object: markerBall5, type: 
+BRIDGE, TRACE | 11:34:15, 2859.47 : Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE, TRACE | 11:34:15, 2859.47 : Mesh bounding box: Center: (-0.8, -0.3, 1.3), Extents: (0.0, 0.0, 0.0)
+DEMOSEQUENCE, TRACE | 11:34:15, 2859.47 : Moving to clip clip6
+LIGHTINGCONTROL, TRACE | 11:34:29, 2873.33 : Restore lights called
+LABMANAGER, TRACE | 11:34:29, 2873.33 : Moving to module at index 8
+LOGINMANAGER, TRACE | 11:34:29, 2873.33 : Lab marked complete, returning to lab selection
+LOGINMANAGER, TRACE | 11:34:29, 2873.33 : Started lab selection
+LOGINMANAGER, TRACE | 11:34:29, 2873.33 : Generating lab selection buttons
+LOGINMANAGER, TRACE | 11:34:31, 2875.81 : Exit button selected
+LOGGER, SUBMIT | 11:34:31, 2875.81 : Application ending after 2875.806 seconds, time is now 11:34
