@@ -1,0 +1,222 @@
+LOGINMANAGER | STATE START | 16:26:37 | 3.81 | Introduction
+LOGINMANAGER | TRACE | 16:26:37 | 3.81 | ToggleControllerRendering()
+DOWNLOADUTILITY | DEBUG | 16:26:37 | 3.81 | Starting download of file $/documents/C2/login/All_Labs.json from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json
+DOWNLOADUTILITY | DEBUG | 16:26:37 | 3.81 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json, path: /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 16:26:37 | 3.81 | SetupIntroAnimation()
+DOWNLOADUTILITY | DEBUG | 16:26:37 | 3.81 | Starting download of file $/documents/C2/login/pin_ids.csv from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv
+DOWNLOADUTILITY | DEBUG | 16:26:37 | 3.81 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv, path: /documents/C2/login/pin_ids.csv
+LOGGER | CONNECT | 16:26:37 | 0 | Connect called at 10/17/2022 16:26:37
+LOGGER | TRACE | 16:26:37 | 0 | Saving files to persistent data path: /documents/C2/Logs/10-17-2022_16-26.txt
+LOGGER | TRACE | 16:26:37 | 0 | Sync with transform log 3.810425
+DOWNLOADUTILITY | DEBUG | 16:26:38 | 0 | Successfully downloaded /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 16:26:38 | 0 | ParseLabs()
+LOGINMANAGER | DEBUG | 16:26:38 | 0 | Finished parsing labs:Moon Lab, 
+DOWNLOADUTILITY | DEBUG | 16:26:38 | 0.05 | Successfully downloaded /documents/C2/login/pin_ids.csv
+AUTHENTICATE | TRACE | 16:26:38 | 0.05 | ParseCSV()
+AUTHENTICATE | DEBUG | 16:26:46 | 0.05 | CSVs Parsed
+LOGINMANAGER | STATE START | 16:26:55 | 8.67 | Placement
+LOGINMANAGER | TRACE | 16:26:55 | 8.67 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 16:26:58 | 11.62 | Place()
+LOGINMANAGER | STATE START | 16:26:58 | 11.62 | Pin Entry
+LOGINMANAGER | TRACE | 16:26:58 | 11.62 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 16:27:00 | 13.31 | GuestLogin()
+LOGINMANAGER | STATE START | 16:27:00 | 13.31 | Authentication
+AUTHENTICATE | DEBUG | 16:27:00 | 13.31 | Attempting to authenticate pin: 000000
+AUTHENTICATE | DEBUG | 16:27:00 | 13.31 | Attempting to authenticate pin: 000000
+AUTHENTICATE | DEBUG | 16:27:00 | 13.31 | Attempting to authenticate pin: 000000
+LABLOGGER | INITIALIZE LOG | 16:27:00 | 13.31 | Log file for student: Guest_Guest,  M00000000.
+LOGINMANAGER | DEBUG | 16:27:00 | 13.31 | Student authenticated: Guest Guest, M00000000
+LOGINMANAGER | STATE START | 16:27:00 | 13.31 | Lab Selection
+LOGINMANAGER | TRACE | 16:27:00 | 13.31 | GenerateLabListUI()
+LOGINMANAGER | TRACE | 16:27:02 | 15.06 | LabSelected()
+LOGINMANAGER | DEBUG | 16:27:02 | 15.06 | Lab Selected: 1, Moon Lab
+LOGINMANAGER | STATE START | 16:27:02 | 15.06 | Lab Initiation
+DOWNLOADUTILITY | DEBUG | 16:27:02 | 15.06 | Starting download of file $/documents/C2/lab_resources/TestLab.zip from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 16:27:02 | 15.06 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip, path: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Successfully downloaded /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | TRACE | 16:27:39 | 52.36 | Starting to extract file: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Number of entries to extract: 64
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: basketball.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: bigearthmoon.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: Grab.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: introduction.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: labintro.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: mixkit-game-bonus-reached-2065.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_1_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_10_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_11_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_2_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_3_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_4_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:39 | 52.36 | Extracting file: moonlab_1_5_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_1_6_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_1_7_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_1_7_notused.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_1_8_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_1_9_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_1_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_10_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_11_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_2_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_20_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_3_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_4_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_5_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_6_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_7_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_8_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_2_9_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_3_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_3_1_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_4_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:40 | 52.36 | Extracting file: moonlab_5_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_6_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_0_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_1_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_2_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_3_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_4_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_5_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: moonlab_7_6_0.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: newfinalie.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: not_in_order1.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: not_in_order2.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: not_in_order3.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: Release.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: seeing the moon.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: sorting_instructions.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: sort-nicejob.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: startbasketball.mp3
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: startsim.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: starttinyearthmoons.wav
+DOWNLOADUTILITY | DEBUG | 16:27:41 | 52.36 | Extracting file: Test55.mp3
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: tinyearthmoon.wav
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: demo10.json
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: 2k_earth_daymap.jpg
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: 2k_moon.jpg
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: 2k_sun.jpg
+DOWNLOADUTILITY | DEBUG | 16:27:42 | 52.36 | Extracting file: balldimpled.png
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.36 | Started Initializing Media Catlogue, 60 resources to load
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.36 | Started loading file: basketball.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.71 | Started loading file: bigearthmoon.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.74 | Started loading file: Grab.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.76 | Started loading file: introduction.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.78 | Started loading file: labintro.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.79 | Started loading file: newfinalie.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.81 | Started loading file: not_in_order1.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.83 | Started loading file: not_in_order2.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.84 | Started loading file: not_in_order3.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.86 | Started loading file: Release.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.88 | Started loading file: seeing the moon.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.91 | Started loading file: sorting_instructions.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.95 | Started loading file: sort-nicejob.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.97 | Started loading file: startbasketball.mp3
+MEDIACATALOGUE | DEBUG | 16:27:42 | 52.98 | Started loading file: startsim.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 53.06 | Started loading file: starttinyearthmoons.wav
+MEDIACATALOGUE | DEBUG | 16:27:42 | 53.08 | Started loading file: Test55.mp3
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.16 | Started loading file: tinyearthmoon.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.51 | Started loading file: mixkit-game-bonus-reached-2065.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.53 | Started loading file: moonlab_1_1_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.55 | Started loading file: moonlab_1_10_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.56 | Started loading file: moonlab_1_11_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.58 | Started loading file: moonlab_1_2_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.6 | Started loading file: moonlab_1_3_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.61 | Started loading file: moonlab_1_4_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.63 | Started loading file: moonlab_1_5_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.65 | Started loading file: moonlab_1_6_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.68 | Started loading file: moonlab_1_7_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.7 | Started loading file: moonlab_1_7_notused.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.71 | Started loading file: moonlab_1_8_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.73 | Started loading file: moonlab_1_9_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.77 | Started loading file: moonlab_2_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.8 | Started loading file: moonlab_2_1_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.82 | Started loading file: moonlab_2_10_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.83 | Started loading file: moonlab_2_11_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.85 | Started loading file: moonlab_2_2_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.87 | Started loading file: moonlab_2_20_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.88 | Started loading file: moonlab_2_3_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.9 | Started loading file: moonlab_2_4_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.92 | Started loading file: moonlab_2_5_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.93 | Started loading file: moonlab_2_6_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.95 | Started loading file: moonlab_2_7_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.97 | Started loading file: moonlab_2_8_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 53.98 | Started loading file: moonlab_2_9_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54 | Started loading file: moonlab_3_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.03 | Started loading file: moonlab_3_1_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.05 | Started loading file: moonlab_4_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.09 | Started loading file: moonlab_5_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.12 | Started loading file: moonlab_6_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.15 | Started loading file: moonlab_7_0_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.17 | Started loading file: moonlab_7_1_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.19 | Started loading file: moonlab_7_2_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.2 | Started loading file: moonlab_7_3_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:48 | 54.22 | Started loading file: moonlab_7_4_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:49 | 54.24 | Started loading file: moonlab_7_5_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:49 | 54.25 | Started loading file: moonlab_7_6_0.wav
+MEDIACATALOGUE | DEBUG | 16:27:49 | 54.27 | Started loading file: 2k_earth_daymap.jpg
+MEDIACATALOGUE | DEBUG | 16:27:49 | 54.51 | Started loading file: 2k_moon.jpg
+MEDIACATALOGUE | DEBUG | 16:27:49 | 54.78 | Started loading file: 2k_sun.jpg
+MEDIACATALOGUE | DEBUG | 16:27:49 | 55.04 | Started loading file: balldimpled.png
+LOGINMANAGER | TRACE | 16:27:49 | 55.09 | InitializeLabManager()
+LABMANAGER | TRACE | 16:27:49 | 55.09 | Initialize()
+LABMANAGER | STATE START | 16:27:49 | 55.09 | Module 0
+LIGHTINGCONTROL | TRACE | 16:27:49 | 55.09 | saveLights()
+LIGHTINGCONTROL | TRACE | 16:27:49 | 55.09 | sunlight()
+BRIDGE | DEBUG | 16:27:49 | 55.09 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 16:27:49 | 55.09 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:49 | 55.09 | Adding components: 
+BRIDGE | DEBUG | 16:27:49 | 55.09 | Mesh bounding box: Center: (-38.6, -0.3, 5.3), Extents: (2.8, 2.5, 2.8)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: Earth, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 1.5), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Mesh bounding box: Center: (0.2, -0.3, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: Moon, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (2.4, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "simpleOrbit", "moonPosition": {"x": 2.4, "y": 0.0, "z": 1.5}, "orbitalPeriod": 56.0, "timeRate": 1.0, "orbitalScale": 1.0, "synchronousRotation": true} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Mesh bounding box: Center: (2.6, -0.3, 0.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: earthLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 2.0, 0.0), Scale: (10.0, 10.0, 10.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: earthSizeLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, -2.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: moonLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 4.0, 0.0), Scale: (20.0, 20.0, 20.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: moonSizeLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, -4.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: moonDistanceLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (45.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (-1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 16:27:50 | 55.09 | clip1
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 16:27:50 | 55.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)

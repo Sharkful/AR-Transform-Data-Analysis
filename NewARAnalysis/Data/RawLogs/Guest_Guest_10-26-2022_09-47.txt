@@ -1,0 +1,33 @@
+LOGINMANAGER | STATE START | 09:46:56 | 3.8 | Introduction
+LOGINMANAGER | TRACE | 09:46:56 | 3.8 | ToggleControllerRendering()
+DOWNLOADUTILITY | DEBUG | 09:46:56 | 3.8 | Starting download of file $/documents/C2/login/All_Labs.json from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json
+DOWNLOADUTILITY | DEBUG | 09:46:56 | 3.8 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json, path: /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 09:46:56 | 3.8 | SetupIntroAnimation()
+DOWNLOADUTILITY | DEBUG | 09:46:56 | 3.8 | Starting download of file $/documents/C2/login/pin_ids.csv from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv
+DOWNLOADUTILITY | DEBUG | 09:46:56 | 3.8 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv, path: /documents/C2/login/pin_ids.csv
+LOGGER | CONNECT | 09:46:56 | 0 | Connect called at 10/26/2022 09:46:56
+LOGGER | TRACE | 09:46:56 | 0 | Saving files to persistent data path: /documents/C2/Logs/10-26-2022_09-46.txt
+LOGGER | TRACE | 09:46:56 | 0 | Sync with transform log 3.795675
+DOWNLOADUTILITY | DEBUG | 09:46:57 | 0.16 | Successfully downloaded /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 09:46:57 | 0.16 | ParseLabs()
+LOGINMANAGER | DEBUG | 09:46:57 | 0.16 | Finished parsing labs:Moon Lab, 
+DOWNLOADUTILITY | DEBUG | 09:46:57 | 0.16 | Successfully downloaded /documents/C2/login/pin_ids.csv
+AUTHENTICATE | TRACE | 09:46:57 | 0.16 | ParseCSV()
+AUTHENTICATE | DEBUG | 09:47:06 | 0.16 | CSVs Parsed
+[LOGIC] (LABLOGGER) | UPLOAD | 09:47:06 | 0.16 | Connect Successful
+LOGINMANAGER | STATE START | 09:47:14 | 8.68 | Placement
+LOGINMANAGER | TRACE | 09:47:14 | 8.68 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 09:47:18 | 11.89 | Place()
+LOGINMANAGER | STATE START | 09:47:18 | 11.89 | Pin Entry
+LOGINMANAGER | TRACE | 09:47:18 | 11.89 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 09:47:20 | 14.5 | GuestLogin()
+LOGINMANAGER | STATE START | 09:47:20 | 14.5 | Authentication
+AUTHENTICATE | DEBUG | 09:47:20 | 14.5 | Attempting to authenticate pin: 000000
+AUTHENTICATE | DEBUG | 09:47:20 | 14.5 | Attempting to authenticate pin: 000000
+AUTHENTICATE | DEBUG | 09:47:21 | 14.5 | Attempting to authenticate pin: 000000
+LABLOGGER | INITIALIZE LOG | 09:47:21 | 14.5 | Log file for student: Guest_Guest,  M00000000.
+LOGINMANAGER | DEBUG | 09:47:21 | 14.5 | Student authenticated: Guest Guest, M00000000
+LOGINMANAGER | STATE START | 09:47:21 | 14.5 | Lab Selection
+LOGINMANAGER | TRACE | 09:47:21 | 14.5 | GenerateLabListUI()
+LOGINMANAGER | TRACE | 09:47:28 | 22.42 | ExitSelected()
+LOGGER | SUBMIT | 09:47:29 | 22.42 | Application ending after 22.42005 seconds, time is now 09:47

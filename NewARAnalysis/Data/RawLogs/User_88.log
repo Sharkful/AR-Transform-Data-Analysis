@@ -1,0 +1,1632 @@
+LOGINMANAGER | STATE START | 15:49:43 | 3.83 | Introduction
+LOGINMANAGER | TRACE | 15:49:43 | 3.83 | ToggleControllerRendering()
+DOWNLOADUTILITY | DEBUG | 15:49:43 | 3.83 | Starting download of file $/documents/C2/login/All_Labs.json from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json
+DOWNLOADUTILITY | DEBUG | 15:49:43 | 3.83 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/testlabs001.json, path: /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 15:49:43 | 3.83 | SetupIntroAnimation()
+DOWNLOADUTILITY | DEBUG | 15:49:43 | 3.83 | Starting download of file $/documents/C2/login/pin_ids.csv from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv
+DOWNLOADUTILITY | DEBUG | 15:49:43 | 3.83 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/pin_ids.csv, path: /documents/C2/login/pin_ids.csv
+LOGGER | CONNECT | 15:49:43 | 0 | Connect called at 09/20/2022 15:49:43
+LOGGER | TRACE | 15:49:43 | 0 | Saving files to persistent data path: /documents/C2/Logs/09-20-2022_15-49.txt
+LOGGER | TRACE | 15:49:43 | 0 | Sync with transform log 3.828272
+DOWNLOADUTILITY | DEBUG | 15:49:45 | 0.92 | Successfully downloaded /documents/C2/login/All_Labs.json
+LOGINMANAGER | TRACE | 15:49:45 | 0.92 | ParseLabs()
+LOGINMANAGER | DEBUG | 15:49:45 | 0.92 | Finished parsing labs:Moon Lab, 
+DOWNLOADUTILITY | DEBUG | 15:49:45 | 0.92 | Successfully downloaded /documents/C2/login/pin_ids.csv
+AUTHENTICATE | TRACE | 15:49:45 | 0.92 | ParseCSV()
+AUTHENTICATE | DEBUG | 15:49:54 | 0.92 | CSVs Parsed
+LOGINMANAGER | STATE START | 15:50:01 | 8.68 | Placement
+LOGINMANAGER | TRACE | 15:50:01 | 8.68 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 15:50:04 | 11.82 | Place()
+LOGINMANAGER | STATE START | 15:50:04 | 11.82 | Pin Entry
+LOGINMANAGER | TRACE | 15:50:04 | 11.82 | ToggleControllerRendering()
+LOGINMANAGER | TRACE | 15:50:10 | 17.36 | PinEntered()
+LOGINMANAGER | STATE START | 15:50:10 | 17.36 | Authentication
+AUTHENTICATE | DEBUG | 15:50:10 | 17.36 | Attempting to authenticate pin: 000088
+AUTHENTICATE | DEBUG | 15:50:14 | 17.36 | Attempting to authenticate pin: 000088
+AUTHENTICATE | DEBUG | 15:50:19 | 17.36 | Attempting to authenticate pin: 000088
+LABLOGGER | INITIALIZE LOG | 15:50:23 | 17.36 | Log file for student: User_88,  M00000088.
+LOGINMANAGER | DEBUG | 15:50:24 | 17.36 | Student authenticated: User 88, M00000088
+LOGINMANAGER | STATE START | 15:50:24 | 17.36 | Lab Selection
+LOGINMANAGER | TRACE | 15:50:24 | 17.36 | GenerateLabListUI()
+LOGINMANAGER | TRACE | 15:50:27 | 21.31 | LabSelected()
+LOGINMANAGER | DEBUG | 15:50:27 | 21.31 | Lab Selected: 1, Moon Lab
+LOGINMANAGER | STATE START | 15:50:27 | 21.31 | Lab Initiation
+DOWNLOADUTILITY | DEBUG | 15:50:27 | 21.31 | Starting download of file $/documents/C2/lab_resources/TestLab.zip from url: https://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 15:50:27 | 21.31 | Inside download coroutine, URL: https://cyberlearnar.cs.mtsu.edu/show_uploaded/TestLab.zip, path: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Successfully downloaded /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | TRACE | 15:50:34 | 27.76 | Starting to extract file: /documents/C2/lab_resources/TestLab.zip
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Number of entries to extract: 64
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: basketball.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: bigearthmoon.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: Grab.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: introduction.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: labintro.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: mixkit-game-bonus-reached-2065.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_1_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_10_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_11_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_2_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_3_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_4_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_5_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_6_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_7_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_7_notused.wav
+DOWNLOADUTILITY | DEBUG | 15:50:34 | 27.76 | Extracting file: moonlab_1_8_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_1_9_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_1_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_10_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_11_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_2_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_20_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_3_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_4_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_5_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_6_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_7_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_8_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_2_9_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_3_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_3_1_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_4_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_5_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_6_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:35 | 27.76 | Extracting file: moonlab_7_0_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_1_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_2_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_3_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_4_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_5_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: moonlab_7_6_0.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: newfinalie.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: not_in_order1.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: not_in_order2.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: not_in_order3.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: Release.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: seeing the moon.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: sorting_instructions.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: sort-nicejob.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: startbasketball.mp3
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: startsim.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: starttinyearthmoons.wav
+DOWNLOADUTILITY | DEBUG | 15:50:36 | 27.76 | Extracting file: Test55.mp3
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: tinyearthmoon.wav
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: demo10.json
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: 2k_earth_daymap.jpg
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: 2k_moon.jpg
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: 2k_sun.jpg
+DOWNLOADUTILITY | DEBUG | 15:50:37 | 27.76 | Extracting file: balldimpled.png
+MEDIACATALOGUE | DEBUG | 15:50:37 | 27.76 | Started Initializing Media Catlogue, 60 resources to load
+MEDIACATALOGUE | DEBUG | 15:50:37 | 27.76 | Started loading file: basketball.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.11 | Started loading file: bigearthmoon.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.14 | Started loading file: Grab.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.16 | Started loading file: introduction.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.18 | Started loading file: labintro.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.19 | Started loading file: newfinalie.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.21 | Started loading file: not_in_order1.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.23 | Started loading file: not_in_order2.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.24 | Started loading file: not_in_order3.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.26 | Started loading file: Release.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.28 | Started loading file: seeing the moon.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.31 | Started loading file: sorting_instructions.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.35 | Started loading file: sort-nicejob.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.36 | Started loading file: startbasketball.mp3
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.38 | Started loading file: startsim.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.46 | Started loading file: starttinyearthmoons.wav
+MEDIACATALOGUE | DEBUG | 15:50:37 | 28.48 | Started loading file: Test55.mp3
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.56 | Started loading file: tinyearthmoon.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.91 | Started loading file: mixkit-game-bonus-reached-2065.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.93 | Started loading file: moonlab_1_1_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.95 | Started loading file: moonlab_1_10_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.96 | Started loading file: moonlab_1_11_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 28.98 | Started loading file: moonlab_1_2_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29 | Started loading file: moonlab_1_3_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.01 | Started loading file: moonlab_1_4_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.03 | Started loading file: moonlab_1_5_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.05 | Started loading file: moonlab_1_6_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.08 | Started loading file: moonlab_1_7_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.11 | Started loading file: moonlab_1_7_notused.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.13 | Started loading file: moonlab_1_8_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.15 | Started loading file: moonlab_1_9_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.18 | Started loading file: moonlab_2_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.22 | Started loading file: moonlab_2_1_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.23 | Started loading file: moonlab_2_10_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.25 | Started loading file: moonlab_2_11_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.27 | Started loading file: moonlab_2_2_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.3 | Started loading file: moonlab_2_20_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.34 | Started loading file: moonlab_2_3_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.35 | Started loading file: moonlab_2_4_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.37 | Started loading file: moonlab_2_5_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.39 | Started loading file: moonlab_2_6_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.4 | Started loading file: moonlab_2_7_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.42 | Started loading file: moonlab_2_8_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.44 | Started loading file: moonlab_2_9_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.45 | Started loading file: moonlab_3_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.49 | Started loading file: moonlab_3_1_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.51 | Started loading file: moonlab_4_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.54 | Started loading file: moonlab_5_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.57 | Started loading file: moonlab_6_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.61 | Started loading file: moonlab_7_0_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.63 | Started loading file: moonlab_7_1_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.64 | Started loading file: moonlab_7_2_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.66 | Started loading file: moonlab_7_3_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.68 | Started loading file: moonlab_7_4_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.69 | Started loading file: moonlab_7_5_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.71 | Started loading file: moonlab_7_6_0.wav
+MEDIACATALOGUE | DEBUG | 15:50:43 | 29.73 | Started loading file: 2k_earth_daymap.jpg
+MEDIACATALOGUE | DEBUG | 15:50:44 | 29.98 | Started loading file: 2k_moon.jpg
+MEDIACATALOGUE | DEBUG | 15:50:44 | 30.25 | Started loading file: 2k_sun.jpg
+MEDIACATALOGUE | DEBUG | 15:50:44 | 30.53 | Started loading file: balldimpled.png
+LOGINMANAGER | TRACE | 15:50:44 | 30.58 | InitializeLabManager()
+LABMANAGER | TRACE | 15:50:44 | 30.58 | Initialize()
+LABMANAGER | STATE START | 15:50:44 | 30.58 | Module 0
+LIGHTINGCONTROL | TRACE | 15:50:44 | 30.58 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:50:44 | 30.58 | sunlight()
+BRIDGE | DEBUG | 15:50:44 | 30.58 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:50:44 | 30.58 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:44 | 30.58 | Adding components: 
+BRIDGE | DEBUG | 15:50:44 | 30.58 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:50:44 | 30.58 | Creating object: Earth, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 1.5), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Mesh bounding box: Center: (-0.5, -0.2, 1.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: Moon, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (2.4, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "simpleOrbit", "moonPosition": {"x": 2.4, "y": 0.0, "z": 1.5}, "orbitalPeriod": 56.0, "timeRate": 1.0, "orbitalScale": 1.0, "synchronousRotation": true} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Mesh bounding box: Center: (1.8, -0.2, 2.1), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: earthLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 2.0, 0.0), Scale: (10.0, 10.0, 10.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: earthSizeLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, -2.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: moonLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 4.0, 0.0), Scale: (20.0, 20.0, 20.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: moonSizeLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, -4.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: moonDistanceLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (45.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (-1.2, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:45 | 30.58 | clip1
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:45 | 30.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:48 | 33.28 | clip2
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Creating object: earthSizeLabel, type: 
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Position: (0.0, 0.0, 0.0), Scale: (10.0, 10.0, 10.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Mesh bounding box: Center: (-0.5, -0.4, 1.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:48 | 33.28 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:49 | 33.28 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:49 | 33.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:49 | 33.97 | clip3
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Creating object: moonSizeLabel, type: 
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Position: (0.0, 0.0, 0.0), Scale: (20.0, 20.0, 20.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Mesh bounding box: Center: (-0.8, -0.3, -1.1), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:49 | 33.97 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:50 | 33.97 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:50 | 33.97 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:50 | 34.5 | clip4
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.4, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Creating object: moonDistanceLabel, type: 
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Position: (0.0, 0.0, 0.0), Scale: (30.0, 30.0, 30.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Mesh bounding box: Center: (-0.6, -0.2, -0.2), Extents: (0.0, 0.1, 0.5)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:50 | 34.5 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:51 | 35.01 | clip5
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.4, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:51 | 35.01 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:51 | 35.66 | clip6
+BRIDGE | DEBUG | 15:50:51 | 35.66 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:51 | 35.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.4, 0.0, 0.2)
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:52 | 35.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:52 | 36.19 | clip7
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.5, 0.0, 0.2)
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:52 | 36.19 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:53 | 36.76 | clip8
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.3, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:53 | 36.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:53 | 37.26 | clip9
+BRIDGE | DEBUG | 15:50:53 | 37.26 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:53 | 37.26 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.3, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.26 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:54 | 37.78 | clip10
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.3, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:54 | 37.78 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:55 | 38.34 | clip11
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.3, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: earthSizeLabel, type: 
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Mesh bounding box: Center: (-0.5, -0.4, 1.3), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: moonSizeLabel, type: 
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Mesh bounding box: Center: (0.3, -0.3, -0.9), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: moonDistanceLabel, type: 
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Mesh bounding box: Center: (0.0, -0.2, -0.1), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:55 | 38.34 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:56 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:56 | 38.34 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:56 | 38.34 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:50:57 | 39.56 | restoreLights()
+LABMANAGER | TRACE | 15:50:57 | 39.56 | ModuleComplete()
+LABMANAGER | STATE START | 15:50:58 | 40.56 | Module 1
+LIGHTINGCONTROL | TRACE | 15:50:58 | 40.56 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:50:58 | 40.56 | sunlight()
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Mesh bounding box: Center: (-0.5, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: Robot, type: Prefabs/robotIdle
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (-0.5, 0.0, 0.0), Scale: (0.4, 0.4, 0.4), EulerAngles: (-90.0, 0.0, 90.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:58 | 40.56 | clip0
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:50:58 | 40.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:50:59 | 41.66 | clip1
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Mesh bounding box: Center: (1.4, 0.0, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:50:59 | 41.66 | Mesh bounding box: Center: (1.4, -0.4, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:00 | 41.66 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:00 | 41.66 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:01 | 42.69 | clip2
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Mesh bounding box: Center: (0.4, -0.2, 3.1), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Mesh bounding box: Center: (0.4, 0.0, 3.1), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Mesh bounding box: Center: (0.4, -0.4, 3.1), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:01 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:02 | 42.69 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:02 | 42.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:02 | 42.69 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:02 | 43.61 | clip3
+BRIDGE | DEBUG | 15:51:02 | 43.61 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:02 | 43.61 | Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:51:02 | 43.61 | Mesh bounding box: Center: (-1.1, -0.2, 3.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:02 | 43.61 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:02 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Mesh bounding box: Center: (-1.1, 0.0, 3.2), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Mesh bounding box: Center: (-1.1, -0.4, 3.2), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:03 | 43.61 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:03 | 43.61 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:04 | 44.47 | clip4
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Mesh bounding box: Center: (-2.3, -0.2, 2.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Mesh bounding box: Center: (-2.3, 0.0, 2.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Mesh bounding box: Center: (-2.3, -0.4, 2.2), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:04 | 44.47 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:05 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:05 | 44.47 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:05 | 44.47 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:05 | 44.47 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:05 | 45.17 | clip5
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Mesh bounding box: Center: (-2.4, -0.2, 0.7), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Mesh bounding box: Center: (-2.4, 0.0, 0.7), Extents: (0.1, 0.0, 0.2)
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:05 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Mesh bounding box: Center: (-2.4, -0.4, 0.7), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:06 | 45.17 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:06 | 45.17 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:06 | 45.76 | clip6
+BRIDGE | DEBUG | 15:51:06 | 45.76 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:06 | 45.76 | Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE | DEBUG | 15:51:06 | 45.76 | Mesh bounding box: Center: (-1.4, -0.2, -0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:06 | 45.76 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Mesh bounding box: Center: (-1.4, 0.0, -0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Mesh bounding box: Center: (-1.4, -0.4, -0.5), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:07 | 45.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:07 | 45.76 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:08 | 46.37 | clip7
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Mesh bounding box: Center: (0.2, -0.2, -0.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Mesh bounding box: Center: (0.2, 0.0, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Mesh bounding box: Center: (0.2, -0.4, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:08 | 46.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:08 | 46.37 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:09 | 47.05 | clip8
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Mesh bounding box: Center: (1.3, -0.2, 0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Mesh bounding box: Center: (1.3, 0.0, 0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Mesh bounding box: Center: (1.3, -0.4, 0.5), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:09 | 47.05 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:10 | 47.05 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:51:11 | 48.5 | restoreLights()
+LABMANAGER | TRACE | 15:51:11 | 48.5 | ModuleComplete()
+LABMANAGER | STATE START | 15:51:12 | 49.52 | Module 2
+LIGHTINGCONTROL | TRACE | 15:51:12 | 49.52 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:51:12 | 49.52 | sunlight()
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Mesh bounding box: Center: (-0.5, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:12 | 49.52 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:12 | 49.52 | clip0
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:13 | 49.52 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:13 | 50.31 | clip1
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Mesh bounding box: Center: (1.4, 0.0, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:13 | 50.31 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Mesh bounding box: Center: (1.4, -0.4, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:14 | 50.31 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:14 | 50.91 | clip2
+BRIDGE | DEBUG | 15:51:14 | 50.91 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:14 | 50.91 | Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Mesh bounding box: Center: (0.4, -0.2, 3.1), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Mesh bounding box: Center: (0.4, 0.0, 3.1), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Mesh bounding box: Center: (0.4, -0.4, 3.1), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:15 | 50.91 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:15 | 50.91 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:15 | 51.38 | clip3
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Mesh bounding box: Center: (-1.1, -0.2, 3.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Mesh bounding box: Center: (-1.1, 0.0, 3.2), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Mesh bounding box: Center: (-1.1, -0.4, 3.2), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:16 | 51.38 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:16 | 51.38 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:17 | 51.76 | clip4
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Mesh bounding box: Center: (-2.3, -0.2, 2.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Mesh bounding box: Center: (-2.3, 0.0, 2.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Mesh bounding box: Center: (-2.3, -0.4, 2.2), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:17 | 51.76 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:17 | 51.76 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:18 | 52.24 | clip5
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Mesh bounding box: Center: (-2.4, -0.2, 0.7), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Mesh bounding box: Center: (-2.4, 0.0, 0.7), Extents: (0.1, 0.0, 0.2)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Mesh bounding box: Center: (-2.4, -0.4, 0.7), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:18 | 52.24 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:19 | 52.24 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:19 | 52.73 | clip6
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Mesh bounding box: Center: (-1.4, -0.2, -0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Mesh bounding box: Center: (-1.4, 0.0, -0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Mesh bounding box: Center: (-1.4, -0.4, -0.5), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:19 | 52.73 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:20 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 52.73 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:20 | 52.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:20 | 52.73 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:20 | 53.16 | clip7
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Mesh bounding box: Center: (0.2, -0.2, -0.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Mesh bounding box: Center: (0.2, 0.0, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Mesh bounding box: Center: (0.2, -0.4, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:20 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:21 | 53.16 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:21 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:21 | 53.16 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:21 | 53.16 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:21 | 53.16 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:21 | 53.73 | clip8
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Mesh bounding box: Center: (1.3, -0.2, 0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Mesh bounding box: Center: (1.3, 0.0, 0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Mesh bounding box: Center: (1.3, -0.4, 0.5), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:21 | 53.73 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:22 | 53.73 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:51:23 | 55.09 | restoreLights()
+LABMANAGER | TRACE | 15:51:23 | 55.09 | ModuleComplete()
+LABMANAGER | STATE START | 15:51:24 | 56.11 | Module 3
+LIGHTINGCONTROL | TRACE | 15:51:24 | 56.11 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:51:24 | 56.11 | sunlight()
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.0, 1.5), Scale: (0.5, 0.5, 0.5), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Mesh bounding box: Center: (-0.5, -0.2, 1.3), Extents: (0.3, 0.3, 0.3)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (2.0, 0.0, 1.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 1.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, -0.8, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (0.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:24 | 56.11 | clip0
+BRIDGE | DEBUG | 15:51:24 | 56.11 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:25 | 56.11 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:25 | 57.14 | clip1
+BRIDGE | DEBUG | 15:51:25 | 57.14 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:25 | 57.14 | Position: (2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:25 | 57.14 | Mesh bounding box: Center: (1.4, -0.2, 2.0), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Mesh bounding box: Center: (1.4, 0.0, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Mesh bounding box: Center: (1.4, -0.4, 2.0), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:26 | 57.14 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:26 | 57.14 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:27 | 57.79 | clip2
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Mesh bounding box: Center: (0.4, -0.2, 3.1), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Mesh bounding box: Center: (0.4, 0.0, 3.1), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Mesh bounding box: Center: (0.4, -0.4, 3.1), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:27 | 57.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:28 | 57.79 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:28 | 58.27 | clip3
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 3.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Mesh bounding box: Center: (-1.1, -0.2, 3.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Mesh bounding box: Center: (-1.1, 0.0, 3.2), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Mesh bounding box: Center: (-1.1, -0.4, 3.2), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:28 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:29 | 58.27 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:29 | 58.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:29 | 58.27 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:29 | 58.82 | clip4
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Position: (-1.4, 0.0, 2.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Mesh bounding box: Center: (-2.3, -0.2, 2.2), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Mesh bounding box: Center: (-2.3, 0.0, 2.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Mesh bounding box: Center: (-2.3, -0.4, 2.2), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:29 | 58.82 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:30 | 58.82 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:30 | 58.82 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:30 | 59.37 | clip5
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Position: (-2.0, 0.0, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Mesh bounding box: Center: (-2.4, -0.2, 0.7), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Mesh bounding box: Center: (-2.4, 0.0, 0.7), Extents: (0.1, 0.0, 0.2)
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:30 | 59.37 | Mesh bounding box: Center: (-2.4, -0.4, 0.7), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:31 | 59.37 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:31 | 59.37 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:31 | 59.98 | clip6
+BRIDGE | DEBUG | 15:51:31 | 59.98 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:31 | 59.98 | Position: (-1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE | DEBUG | 15:51:31 | 59.98 | Mesh bounding box: Center: (-1.4, -0.2, -0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:31 | 59.98 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Mesh bounding box: Center: (-1.4, 0.0, -0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Mesh bounding box: Center: (-1.4, -0.4, -0.5), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:32 | 59.98 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:32 | 59.98 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:33 | 60.58 | clip7
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, -0.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Mesh bounding box: Center: (0.2, -0.2, -0.6), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Mesh bounding box: Center: (0.2, 0.0, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Mesh bounding box: Center: (0.2, -0.4, -0.6), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:33 | 60.58 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:33 | 60.58 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:34 | 61.18 | clip8
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Position: (1.4, 0.0, 0.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Mesh bounding box: Center: (1.3, -0.2, 0.5), Extents: (0.2, 0.1, 0.2)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Mesh bounding box: Center: (1.3, 0.0, 0.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Mesh bounding box: Center: (1.3, -0.4, 0.5), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:34 | 61.18 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:35 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:35 | 61.18 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:35 | 61.18 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:51:36 | 62.55 | restoreLights()
+LABMANAGER | TRACE | 15:51:36 | 62.55 | ModuleComplete()
+LABMANAGER | STATE START | 15:51:37 | 63.56 | Module 4
+LIGHTINGCONTROL | TRACE | 15:51:37 | 63.56 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:51:37 | 63.56 | sunlight()
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: Earth, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, -0.7, 1.5), Scale: (0.2, 0.2, 0.2), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2.0} 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Mesh bounding box: Center: (-0.5, -0.9, 1.3), Extents: (0.1, 0.1, 0.1)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: Moon, type: Prefabs/clickableSphere
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.5, -0.7, 1.5), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Mesh bounding box: Center: (0.0, -0.9, 1.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: moonLabelTop, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (1.0, 0.0, 0.0), Scale: (2.0, 2.0, 2.0), EulerAngles: (90.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: moonLabelBottom, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (-0.8, 0.0, 0.0), Scale: (1.5, 1.5, 1.5), EulerAngles: (90.0, 90.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:37 | 63.56 | clip0
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:37 | 63.56 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:39 | 65.31 | clip1
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Position: (0.5, -0.7, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Mesh bounding box: Center: (0.0, -0.9, 1.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Mesh bounding box: Center: (0.1, -0.9, 1.5), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Mesh bounding box: Center: (-0.1, -0.9, 1.5), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:39 | 65.31 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:40 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:40 | 65.31 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:40 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:40 | 65.31 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:40 | 65.31 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:40 | 65.31 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:40 | 65.94 | clip2
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Position: (0.4, -0.7, 1.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -45.0, 0.0)
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Mesh bounding box: Center: (-0.3, -0.9, 1.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Mesh bounding box: Center: (-0.2, -0.9, 1.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:40 | 65.94 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Mesh bounding box: Center: (-0.3, -0.9, 1.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:41 | 65.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:41 | 65.94 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:41 | 66.53 | clip3
+BRIDGE | DEBUG | 15:51:41 | 66.53 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, -0.7, 2.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -90.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Mesh bounding box: Center: (-0.6, -0.9, 1.8), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Mesh bounding box: Center: (-0.7, -0.9, 1.9), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Mesh bounding box: Center: (-0.6, -0.9, 1.7), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:42 | 66.53 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:42 | 66.53 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:43 | 67.03 | clip4
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (-0.4, -0.7, 1.9), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -135.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Mesh bounding box: Center: (-0.9, -0.9, 1.5), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Mesh bounding box: Center: (-1.0, -0.9, 1.6), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Mesh bounding box: Center: (-0.9, -0.9, 1.5), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:43 | 67.03 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:44 | 67.03 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:44 | 67.03 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:44 | 67.86 | clip5
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Position: (-0.5, -0.7, 1.5), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -180.0, 0.0)
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Mesh bounding box: Center: (-1.0, -0.9, 1.2), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Mesh bounding box: Center: (-1.0, -0.9, 1.1), Extents: (0.0, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:44 | 67.86 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Mesh bounding box: Center: (-0.9, -0.9, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:45 | 67.86 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:45 | 67.86 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:46 | 68.64 | clip6
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (-0.4, -0.7, 1.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -225.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Mesh bounding box: Center: (-0.7, -0.9, 0.9), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Mesh bounding box: Center: (-0.7, -0.9, 0.8), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Mesh bounding box: Center: (-0.7, -0.9, 0.9), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:46 | 68.64 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:46 | 68.64 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:47 | 69.13 | clip7
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, -0.7, 1.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -270.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Mesh bounding box: Center: (-0.3, -0.9, 0.9), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Mesh bounding box: Center: (-0.3, -0.9, 0.8), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Mesh bounding box: Center: (-0.3, -0.9, 0.9), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:47 | 69.13 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:48 | 69.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+MEDIACATALOGUE | ERROR | 15:51:48 | 69.13 | Could not find audio in catalogue: , returning null
+DEMOSEQUENCE | START STATE | 15:51:48 | 69.69 | clip8
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Creating object: Moon, type: 
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Position: (0.4, -0.7, 1.1), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, -315.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Mesh bounding box: Center: (0.0, -0.9, 1.1), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Creating object: moonLabelTop, type: 
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Mesh bounding box: Center: (0.0, -0.9, 1.1), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Creating object: moonLabelBottom, type: 
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Mesh bounding box: Center: (-0.1, -0.9, 1.1), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:48 | 69.69 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:49 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:49 | 69.69 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:49 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:49 | 69.69 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:49 | 69.69 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:51:50 | 71.13 | restoreLights()
+LABMANAGER | TRACE | 15:51:50 | 71.13 | ModuleComplete()
+LABMANAGER | STATE START | 15:51:51 | 72.13 | Module 5
+LIGHTINGCONTROL | TRACE | 15:51:51 | 72.13 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:51:51 | 72.13 | sunlight()
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: basketball, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 2.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2000} {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30, "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (-0.8, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:51 | 72.13 | clip0
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:51 | 72.13 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:52 | 73.27 | clip1
+BRIDGE | DEBUG | 15:51:52 | 73.27 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:52 | 73.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:52 | 73.27 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:52 | 73.27 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:53 | 73.27 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:54 | 74.94 | clip2
+BRIDGE | DEBUG | 15:51:54 | 74.94 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:54 | 74.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:54 | 74.94 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:54 | 74.94 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:54 | 74.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:55 | 74.94 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:56 | 76.22 | clip3
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:56 | 76.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:57 | 77.02 | clip4
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 45, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:57 | 77.02 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:58 | 77.02 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:58 | 77.02 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:58 | 77.81 | clip5
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 90, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:51:58 | 77.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:59 | 77.81 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:51:59 | 77.81 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:59 | 77.81 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:51:59 | 77.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:51:59 | 78.57 | clip6
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 135, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:51:59 | 78.57 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:00 | 78.57 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:00 | 79.22 | clip7
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 180, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:00 | 79.22 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.22 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:01 | 79.81 | clip8
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 225, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:01 | 79.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:02 | 79.81 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:02 | 79.81 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:02 | 79.81 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:02 | 79.81 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:02 | 80.44 | clip9
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 270, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:02 | 80.44 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:03 | 80.44 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:03 | 80.44 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:03 | 80.44 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:03 | 81.09 | clip10
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 315, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:03 | 81.09 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:04 | 81.09 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:04 | 81.09 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:04 | 81.79 | clip11
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:04 | 81.79 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:05 | 81.79 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:05 | 81.79 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:52:05 | 82.94 | restoreLights()
+LABMANAGER | TRACE | 15:52:06 | 82.94 | ModuleComplete()
+LABMANAGER | STATE START | 15:52:06 | 83.95 | Module 6
+LIGHTINGCONTROL | TRACE | 15:52:06 | 83.95 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:52:06 | 83.95 | sunlight()
+BRIDGE | DEBUG | 15:52:06 | 83.95 | Creating object: Sun, type: Prefabs/SunPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (-39.0, 0.0, 0.0), Scale: (5.0, 5.0, 5.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Mesh bounding box: Center: (-36.8, -0.2, -12.9), Extents: (3.2, 2.5, 3.2)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: basketball, type: Prefabs/moveableSphere
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 2.5), Scale: (0.3, 0.3, 0.3), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: {"name": "simpleRotation", "timeRate": 1.0, "rotationTime": 2} {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30, "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: sectionLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.8, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: taskLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.6, 2.5), Scale: (0.6, 0.6, 0.6), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbPreviousClip, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (-0.5, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbPreviousClipLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:07 | 83.95 | clip0
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:07 | 83.95 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:09 | 86.28 | clip9
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 270, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:09 | 86.28 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:10 | 86.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:10 | 86.28 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:10 | 86.28 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:10 | 86.28 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:10 | 86.28 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:10 | 87 | clip7
+BRIDGE | DEBUG | 15:52:10 | 87 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:10 | 87 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:10 | 87 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:10 | 87 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:10 | 87 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:10 | 87 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 180, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:11 | 87 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:11 | 87 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:11 | 87 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:11 | 87 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:11 | 87 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:11 | 87 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:11 | 87 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:11 | 87.54 | clip6
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 135, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:11 | 87.54 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:12 | 87.54 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:12 | 87.54 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:12 | 87.54 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:12 | 87.54 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:12 | 87.54 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:12 | 88.15 | clip3
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 0, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:12 | 88.15 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.15 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:13 | 88.15 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.15 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:13 | 88.15 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.15 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:13 | 88.74 | clip10
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.1, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 315, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:13 | 88.74 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:14 | 88.74 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:14 | 88.74 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:14 | 88.74 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:14 | 88.74 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:14 | 89.29 | clip5
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 90, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:14 | 89.29 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:15 | 89.29 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.29 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:15 | 89.85 | clip4
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 45, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:15 | 89.85 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:16 | 90.42 | clip8
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Adding components: {"name": "checkAngle", "audioClipSuccess": null, "azmTarget": 225, "azmTolerance": 30, "altTarget": 0, "altTolerance": 30} 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:16 | 90.42 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:17 | 91.07 | clip11
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Creating object: taskLabel, type: 
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Mesh bounding box: Center: (-0.8, 0.4, 2.3), Extents: (0.2, 0.0, 0.1)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Creating object: basketball, type: 
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Mesh bounding box: Center: (-0.8, -0.2, 2.3), Extents: (0.2, 0.2, 0.2)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Creating object: brbPreviousClip, type: 
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Creating object: brbNextClip, type: 
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Creating object: brbNextModule, type: 
+BRIDGE | DEBUG | 15:52:17 | 91.07 | Position: (0.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:52:18 | 92.33 | restoreLights()
+LABMANAGER | TRACE | 15:52:18 | 92.33 | ModuleComplete()
+LABMANAGER | STATE START | 15:52:19 | 93.34 | Module 7
+LIGHTINGCONTROL | TRACE | 15:52:19 | 93.34 | saveLights()
+LIGHTINGCONTROL | TRACE | 15:52:19 | 93.34 | sunlight()
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Creating object: title, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Position: (0.0, 0.5, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Creating object: line0, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Position: (0.0, 0.3, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Creating object: line1, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Position: (0.0, 0.2, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Creating object: line2, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Position: (0.0, 0.1, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Creating object: line3, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:19 | 93.34 | Position: (0.0, 0.0, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: line4, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (0.0, -0.1, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: line5, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (0.0, -0.2, 1.6), Scale: (1.0, 1.0, 1.0), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall1, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, 0.3, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, 0.1, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall2, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, 0.2, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, 0.0, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall3, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, 0.1, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, -0.1, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall4, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, 0.0, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, -0.2, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall5, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, -0.1, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, -0.3, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: markerBall6, type: Prefabs/tinySphere
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-0.8, -0.2, 1.6), Scale: (0.1, 0.1, 0.1), EulerAngles: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Mesh bounding box: Center: (-1.2, -0.4, 1.2), Extents: (0.0, 0.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: brbNextModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: brbNextModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: brbPreviousModule, type: Prefabs/demoButtonPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (-1.0, 0.0, 0.0), Scale: (1.0, 1.0, 1.0), EulerAngles: (90.0, 180.0, 0.0)
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Adding components: {"name": "demoButtonActions", "callBackObjects": ["demoModule"]} 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: brbPreviousModuleLabel, type: Prefabs/textPrefab
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (0.0, 0.0, 0.1), Scale: (0.6, 0.6, 0.6), EulerAngles: (90.0, 180.0, 0.0)
+DEMOSEQUENCE | START STATE | 15:52:20 | 93.34 | clip0
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Creating object: MainInstructions, type: 
+BRIDGE | DEBUG | 15:52:20 | 93.34 | Position: (0.0, 0.0, 0.0), Scale: (0.0, 0.0, 0.0), EulerAngles: (0.0, 0.0, 0.0)
+LIGHTINGCONTROL | TRACE | 15:52:22 | 95.6 | restoreLights()
+LABMANAGER | TRACE | 15:52:22 | 95.6 | ModuleComplete()
+LOGINMANAGER | TRACE | 15:52:22 | 95.6 | LabComplete()
+LOGINMANAGER | STATE START | 15:52:22 | 95.6 | Lab Selection
+LOGINMANAGER | TRACE | 15:52:22 | 95.6 | GenerateLabListUI()
+LOGINMANAGER | TRACE | 15:52:24 | 97.5 | ExitSelected()
+LOGGER | SUBMIT | 15:52:24 | 97.5 | Application ending after 97.49744 seconds, time is now 15:52
