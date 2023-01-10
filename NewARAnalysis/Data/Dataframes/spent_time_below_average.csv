@@ -1,19 +1,55 @@
-User ID,Module,Time on Module,Average
-88,Placement,3.14,42.987175
-88,Pin Entry,5.54,30.117695
-88,module0,9.98,618.5636
-88,module1,8.96,461.96283
-88,module2,6.59,341.21945
-88,module3,7.45,348.6421
-88,module4,8.57,326.5882
-102,module3,65.58,348.6421
-103,module0,17.03,618.5636
-103,module1,11.41,461.96283
-111,module0,26.27,618.5636
-111,module1,100.25,461.96283
-112,module2,70.46,341.21945
-117,Placement,0.74,42.987175
-122,module1,68.03,461.96283
-128,module2,40.43,341.21945
-145,module3,77.63,348.6421
-151,module3,10.26,348.6421
+User ID,Module,Time on Module,0.15 Quartile
+88,Placement,3.14,31.083
+88,Pin Entry,5.54,14.554
+88,Lab Selection,3.95,4.86
+88,module0,9.98,397.24
+88,module1,8.96,198.068
+88,module2,6.59,158.418
+88,module3,7.45,233.323
+88,module4,8.57,243.05
+102,Lab Initiation,6.48,6.551
+102,module3,65.58,233.323
+103,Lab Selection,2.63,4.86
+103,module0,17.03,397.24
+103,module1,11.41,198.068
+103,module2,152.37,158.418
+105,Lab Initiation,6.52,6.551
+105,module4,191.83,243.05
+111,Placement,30.81,31.083
+111,Pin Entry,10.82,14.554
+111,module0,26.27,397.24
+111,module1,100.25,198.068
+112,Placement,28.49,31.083
+112,module0,317.23,397.24
+112,module2,70.46,158.418
+116,Pin Entry,13.16,14.554
+117,Placement,0.74,31.083
+118,Lab Initiation,6.41,6.551
+122,Lab Selection,4.37,4.86
+122,Lab Initiation,6.53,6.551
+122,module1,68.03,198.068
+124,module0,237.97,397.24
+124,module4,227.58,243.05
+125,Pin Entry,13.63,14.554
+125,module3,224.37,233.323
+127,module1,160.04,198.068
+128,module2,40.43,158.418
+129,Lab Initiation,6.46,6.551
+130,Lab Initiation,6.42,6.551
+141,Pin Entry,10.37,14.554
+141,module3,223.76,233.323
+143,module2,148.01,158.418
+145,module3,77.63,233.323
+148,Placement,30.04,31.083
+148,Lab Selection,3.06,4.86
+148,module4,208.57,243.05
+150,module1,185.3,198.068
+151,module3,10.26,233.323
+157,module0,295.36,397.24
+163,Placement,28.49,31.083
+163,Lab Selection,4.0,4.86
+163,module4,120.88,243.05
+168,Pin Entry,10.23,14.554
+168,Lab Selection,3.74,4.86
+168,module2,150.96,158.418
+174,module4,191.51,243.05
